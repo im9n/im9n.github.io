@@ -65,8 +65,8 @@ a {
 }
 
 .nav__link:hover {
-  color: crimson;
-  border-bottom-color: crimson;
+  color: #fff;
+  border-bottom-color: #fff
 }
 
 .nav__input--wrapper {
@@ -251,14 +251,13 @@ display: none;
   position: relative;
 }
 
-.fa-spinner, .movies__list--loading{
+.movies__list--loading{
   font-size: 64px;
   color: crimson;
   display: none !important;
   position: absolute;
   top: 24px;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 43%;
   animation: loading 1000ms infinite
 
 }
