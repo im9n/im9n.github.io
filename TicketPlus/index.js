@@ -46,7 +46,7 @@ function searchResult(value) {
 async function moviesSearch(value) {
 
   const response = await fetch(
-    `http://omdbapi.com/?type=movie&apikey=28c39af6&s=${value}`
+    `https://omdbapi.com/?type=movie&apikey=28c39af6&s=${value}`
   );
 
   const searchResults = await response.json();
